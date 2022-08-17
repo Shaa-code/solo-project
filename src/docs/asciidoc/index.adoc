@@ -1,0 +1,51 @@
+= 사업 API
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: 목차
+:source-highlighter: prettify
+
+***
+== MemberController
+=== 회원 등록
+.curl-request
+include::{snippets}/post-member/curl-request.adoc[]
+
+.http-request
+include::{snippets}/post-member/http-request.adoc[]
+
+.request-fields
+include::{snippets}/post-member/request-fields.adoc[]
+
+.http-response
+include::{snippets}/post-member/http-response.adoc[]
+
+=== 모든 회원 검색
+.curl-request
+include::{snippets}/allMember/curl-request.adoc[]
+
+.http-request
+include::{snippets}/allMember/http-request.adoc[]
+
+.http-response
+include::{snippets}/allMember/http-response.adoc[]
+
+=== CompanyType 검색
+.curl-request
+include::{snippets}/CompanyType/curl-request.adoc[]
+
+.http-request
+include::{snippets}/CompanyType/http-request.adoc[]
+
+.http-response
+include::{snippets}/CompanyType/http-response.adoc[]
+
+=== CompanyLocation 검색
+.curl-request
+include::{snippets}/CompanyLocation/curl-request.adoc[]
+
+.http-request
+include::{snippets}/CompanyLocation/http-request.adoc[]
+
+.http-response
+include::{snippets}/CompanyLocation/http-response.adoc[]
